@@ -1,7 +1,9 @@
-const menuBtn = document.getElementById('menu-btn');
-        const menu = document.getElementById('menu');
+document.addEventListener('DOMContentLoaded', () => {
+    const menuBtn = document.getElementById('menu-btn');
+    const menu = document.getElementById('menu');
 
-        menuBtn.addEventListener('click', () => {
-            menu.classList.toggle('hidden');
-        });
-        
+    // Toggle menu visibility on click
+    menuBtn.addEventListener('click', () => {
+        menu.classList.toggle('hidden');
+    });
+});
