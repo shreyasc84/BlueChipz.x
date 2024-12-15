@@ -1,0 +1,38 @@
+.clay-card {
+    background: linear-gradient(135deg, rgba(20, 30, 97, 0.9), rgba(0, 255, 170, 0.2));
+    border-radius: 15px;
+    box-shadow: 0px 4px 15px rgba(0, 255, 170, 0.2);
+    backdrop-filter: blur(8px);
+    color: #FFFFFF;
+    text-shadow: 0 0 5px rgba(0, 255, 170, 0.7);
+    padding: 20px;
+    transition: transform 0.3s ease-in-out;
+}
+.clay-card:hover {
+    transform: scale(1.05);
+    box-shadow: 0px 0px 20px rgba(0, 255, 170, 0.5);
+}
+body {
+    background: linear-gradient(135deg, #0d001a, #1e0033, #3b0078, #4b0082);
+    background-attachment: fixed;
+    background-size: 400% 400%;
+    animation: gradientAnimation 10s infinite alternate;
+    color: white;
+    font-family: 'Space Grotesk', sans-serif;
+    scroll-behavior: smooth; /* Smooth scrolling */
+}
+.gradient-text {
+    background: linear-gradient(90deg, #9f4fe0, #ab64d4);
+    color: #ab64d4; /* Fallback color */
+    -webkit-background-clip: text; /* For WebKit browsers like Chrome, Safari */
+    background-clip: text; /* Standard property */
+    -webkit-text-fill-color: transparent; /* Hide the original text color */
+}
+@keyframes gradientAnimation {
+    0% {
+        background-position: 0% 50%;
+    }
+    100% {
+        background-position: 100% 50%;
+    }
+}

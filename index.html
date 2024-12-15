@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bluechipz.x - Web3 Revolution</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body class="min-h-screen text-white">
+    <!-- Header -->
+    <header class="container mx-auto px-4 py-2">
+        <nav class="flex justify-between items-center">
+            <!-- Logo and Text Container -->
+            <div class="flex items-center">
+                <div class="w-20"> <!-- Logo Size -->
+                    <img src="./components/logo.png" alt="Bluechipz.x Logo" class="w-full">
+                </div>
+                <!-- Text beside Logo -->
+                <span class="ml-2 text-2xl font-semibold gradient-text">
+                    Bluechipz.x
+                </span>
+            </div>
+            
+            <!-- Navigation Links -->
+            <div class="hidden md:flex space-x-6">
+                <a href="#about" class="hover:text-blue-400">About</a>
+                <a href="#campaigns" class="hover:text-blue-400">Campaigns</a>
+                <a href="#collections" class="hover:text-blue-400">Collections</a>
+                <a href="#contact" class="hover:text-blue-400">Contact</a>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="container mx-auto px-4 py-16 text-center">
+        <h1 class="text-5xl md:text-7xl font-bold mb-6 bg-gradient-to-r from-blue-400 to-purple-600 bg-clip-text text-transparent">
+            Bridging Blockchain to Reality
+        </h1>
+        <p class="text-xl md:text-2xl mb-8 text-gray-300">
+            Revolutionizing the way we interact with Web3 technology
+        </p>
+    </section>
+
+    <!-- Campaigns Section -->
+    <section id="campaigns" class="container mx-auto px-4 py-16">
+        <h2 class="text-3xl font-bold mb-12 text-center">Our Campaigns</h2>
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+            <div class="clay-card p-6">
+                <i class="bi bi-graph-up-arrow text-4xl text-blue-400"></i>
+                <h3 class="text-xl font-bold mt-4 mb-2">Trading Solutions</h3>
+                <p class="text-gray-300">Advanced trading tools and strategies for crypto enthusiasts</p>
+            </div>
+            <div class="clay-card p-6">
+                <i class="bi bi-buildings text-4xl text-blue-400"></i>
+                <h3 class="text-xl font-bold mt-4 mb-2">Progress Cayo</h3>
+                <p class="text-gray-300">Transforming the 7th district through blockchain innovation</p>
+            </div>
+            <div class="clay-card p-6">
+                <i class="bi bi-person-workspace text-4xl text-blue-400"></i>
+                <h3 class="text-xl font-bold mt-4 mb-2">Blockchain Employment</h3>
+                <p class="text-gray-300">Creating job opportunities in the Web3 space</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- NFT Collections -->
+    <section id="collections" class="container mx-auto px-4 py-16">
+        <h2 class="text-3xl font-bold mb-12 text-center">NFT Collections</h2>
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+            <div class="clay-card p-6">
+                <div class="aspect-w-16 aspect-h-9 bg-gradient-to-r from-blue-500 to-purple-600 rounded-lg mb-4"></div>
+                <h3 class="text-xl font-bold mb-2">Upcoming Collection</h3>
+                <p class="text-gray-300">Stay tuned for our exclusive NFT drops</p>
+            </div>
+            <div class="clay-card p-6">
+                <div class="aspect-w-16 aspect-h-9 bg-gradient-to-r from-purple-500 to-blue-600 rounded-lg mb-4"></div>
+                <h3 class="text-xl font-bold mb-2">Community Collections</h3>
+                <p class="text-gray-300">Community-driven NFT initiatives</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="container mx-auto px-4 py-16">
+        <div class="clay-card max-w-2xl mx-auto p-8">
+            <h2 class="text-3xl font-bold mb-8 text-center">Join the Revolution</h2>
+            <form class="space-y-6">
+                <div>
+                    <input type="email" placeholder="Enter your email" class="w-full p-3 rounded-lg bg-transparent border border-blue-400 focus:outline-none focus:ring-2 focus:ring-blue-400">
+                </div>
+                <button class="w-full py-3 px-6 bg-blue-600 hover:bg-blue-700 rounded-lg font-bold transition duration-300">
+                    Stay Updated
+                </button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="container mx-auto px-4 py-8 text-center text-gray-400">
+        <p>&copy; 2023 Bluechipz.x - Bringing Blockchain to Reality</p>
+    </footer>
+</body>
+</html>
