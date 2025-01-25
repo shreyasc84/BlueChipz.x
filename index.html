@@ -10,35 +10,7 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body class="min-h-screen text-white">
-    <!-- Header -->
-    <header class="container mx-auto px-4 py-2">
-        <nav class="flex justify-between items-center">
-            <!-- Logo and Text Container -->
-            <div class="flex items-center">
-                <div class="w-20"> <!-- Logo Size -->
-                    <img src="./components/logo.png" alt="Bluechipz.x Logo" class="w-full">
-                </div>
-                <!-- Text beside Logo -->
-                <span class="ml-2 text-2xl font-semibold gradient-text">
-                    Bluechipz.x
-                </span>
-            </div>
-
-            <button id="menu-btn" class="md:hidden text-3xl focus:outline-none">
-                <i class="bi bi-list"></i>
-            </button>
-
-            
-            <!-- Navigation Links -->
-            <div id="menu" class="hidden md:flex flex-col md:flex-row space-y-4 md:space-y-0 md:space-x-6">
-                <a href="#about" class="hover:text-blue-400">About</a>
-                <a href="#campaigns" class="hover:text-blue-400">Campaigns</a>
-                <a href="#collections" class="hover:text-blue-400">Collections</a>
-                <a href="#contact" class="hover:text-blue-400">Contact</a>
-            </div>
-        </nav>
-    </header>
-
+    <div id="navbar"></div>
     <!-- Hero Section -->
     <section class="container mx-auto px-4 py-16 text-center">
         <h1 class="text-5xl md:text-7xl font-bold mb-6 bg-gradient-to-r from-blue-400 to-purple-600 bg-clip-text text-transparent">
@@ -47,28 +19,6 @@
         <p class="text-xl md:text-2xl mb-8 text-gray-300">
             Revolutionizing the way we interact with Web3 technology
         </p>
-    </section>
-
-    <!-- Campaigns Section -->
-    <section id="campaigns" class="container mx-auto px-4 py-16">
-        <h2 class="text-3xl font-bold mb-12 text-center">Our Campaigns</h2>
-        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-            <div class="clay-card p-6">
-                <i class="bi bi-graph-up-arrow text-4xl text-blue-400"></i>
-                <h3 class="text-xl font-bold mt-4 mb-2">Trading Solutions</h3>
-                <p class="text-gray-300">Advanced trading tools and strategies for crypto enthusiasts</p>
-            </div>
-            <div class="clay-card p-6">
-                <i class="bi bi-buildings text-4xl text-blue-400"></i>
-                <h3 class="text-xl font-bold mt-4 mb-2">Progress Cayo</h3>
-                <p class="text-gray-300">Transforming the 7th district through blockchain innovation</p>
-            </div>
-            <div class="clay-card p-6">
-                <i class="bi bi-person-workspace text-4xl text-blue-400"></i>
-                <h3 class="text-xl font-bold mt-4 mb-2">Blockchain Employment</h3>
-                <p class="text-gray-300">Creating job opportunities in the Web3 space</p>
-            </div>
-        </div>
     </section>
 
     <!-- NFT Collections -->
@@ -104,9 +54,7 @@
     </section>
 
     <!-- Footer -->
-    <footer class="container mx-auto px-4 py-8 text-center text-gray-400">
-        <p>&copy; 2022 Bluechipz.x - Bringing Blockchain to Reality</p>
-    </footer>
+    <div id="footer"></div>
     <script src="script.js"></script>
 </body>
 </html>

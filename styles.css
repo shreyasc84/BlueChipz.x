@@ -39,3 +39,7 @@ body {
 #menu {
     transition: all 0.3s ease-in-out;
 }
+
+body::-webkit-scrollbar {
+    width: 0; /* Hide the scrollbar for WebKit browsers (Chrome, Safari, etc.) */
+}
