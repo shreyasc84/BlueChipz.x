@@ -20,6 +20,10 @@ body {
     color: white;
     font-family: 'Space Grotesk', sans-serif;
     scroll-behavior: smooth; /* Smooth scrolling */
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    margin: 0;
 }
 .gradient-text {
     background: linear-gradient(90deg, #9f4fe0, #ab64d4);
