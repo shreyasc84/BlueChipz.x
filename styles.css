@@ -16,7 +16,7 @@ body {
     background: linear-gradient(135deg, #0d001a, #1e0033, #3b0078, #4b0082);
     background-attachment: fixed;
     background-size: 400% 400%;
-    animation: gradientAnimation 1.5s infinite alternate;
+    animation: gradientAnimation 7s infinite alternate;
     color: white;
     font-family: 'Space Grotesk', sans-serif;
     scroll-behavior: smooth; /* Smooth scrolling */
