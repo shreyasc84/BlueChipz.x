@@ -1,22 +1,24 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>BlueChipz.X</title>
+    <title>BlueChipz.x</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
     <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles.css">
-    <script src="https://code.iconify.design/iconify-icon/1.0.7/iconify-icon.min.js"></script><!--To import icons-->
+    <script src="https://code.iconify.design/iconify-icon/1.0.7/iconify-icon.min.js"></script>
 </head>
+
 <body class="min-h-screen text-white">
     <header>
         <div id="navbar"></div>
     </header>
 
     <!-- Hero Section -->
-    <section class="container mx-auto px-4 py-16 text-center">
+    <section class="container mx-auto px-6 py-16 text-center">
         <h1 class="text-5xl md:text-7xl font-bold mb-6 bg-gradient-to-r from-blue-400 to-purple-600 bg-clip-text text-transparent">
             Bridging Blockchain to Reality
         </h1>
@@ -26,181 +28,156 @@
     </section>
 
     <!-- Mission Section -->
-    <section class="container mx-auto px-4 py-16">
-        <div class="container mx-auto px-4">
-            <section id="projects" class="container mx-auto px-4">
-                <div class="container mx-auto px-4">
-                    <section class="container mx-auto px-4 py-16 text-center">
-                        <h1 class="text-5xl md:text-7xl font-bold mb-6 bg-gradient-to-r from-blue-400 to-purple-600 bg-clip-text text-transparent">
-                        Our Mission 
-                        </h1>
-                    </section>
-            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
-                <div class="clay-card p-8 text-center">
-                    <i class="bi bi-palette text-4xl text-pink-500 mb-4"></i>
-                    <p class="text-xl font-bold mt-4 mb-2">Support artists and their work via the Blockchain. 
-                        Educate and exposure via collaboration and building of reputation from within.</p>
-                </div>
-                <div class="clay-card p-8 text-center">
-                    <i class="bi bi-boxes text-4xl text-blue-500 mb-4"></i>
-                    <p class="text-xl font-bold mt-4 mb-2">Showcase artist and their potential towards financial freedom, 
-                        the diversity and evolution of Art, and to make RW impacts via the Blockchain.</p>
-                </div>
-                <div class="clay-card p-8 text-center">
-                    <i class="bi bi-currency-exchange text-4xl text-green-500 mb-4"></i>
-                    <p class="text-xl font-bold mt-4 mb-2">Enable support towards financial freedom for artists working for, 
-                        with, and amongst us. Getting paid/rewarded for service, Education and via community activities/prizes.</p>
-                </div>
-                <div class="clay-card p-8 text-center">
-                    <i class="bi bi-heart text-4xl text-red-500 mb-4"></i>
-                    <p class="text-xl font-bold mt-4 mb-2">Create positive, lasting RW and AR/VR impact globally</p>
-                </div>
+    <section class="container mx-auto px-6 py-16">
+        <h1 class="text-5xl md:text-7xl font-bold text-center mb-16 bg-gradient-to-r from-blue-400 to-purple-600 bg-clip-text text-transparent">
+            Our Mission
+        </h1>
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+            <div class="clay-card p-6 text-center">
+                <i class="bi bi-palette text-4xl text-pink-500 mb-4"></i>
+                <p class="text-xl font-bold mb-2">Support artists and their work via the Blockchain. Educate and exposure via collaboration and building of reputation from within.</p>
             </div>
+            <div class="clay-card p-6 text-center">
+                <i class="bi bi-boxes text-4xl text-blue-500 mb-4"></i>
+                <p class="text-xl font-bold mb-2">Showcase artist and their potential towards financial freedom, the diversity and evolution of Art, and to make RW impacts via the Blockchain.</p>
+            </div>
+            <div class="clay-card p-6 text-center">
+                <i class="bi bi-currency-exchange text-4xl text-green-500 mb-4"></i>
+                <p class="text-xl font-bold mb-2">Enable support towards financial freedom for artists working for, with, and amongst us. Getting paid/rewarded for service, education and via community activities/prizes.</p>
+            </div>
+            <div class="clay-card p-6 text-center">
+                <i class="bi bi-heart text-4xl text-red-500 mb-4"></i>
+                <p class="text-xl font-bold mb-2">Create positive, lasting RW and AR/VR impact globally.</p>
             </div>
         </div>
     </section>
 
     <!-- Community Projects -->
-    <section id="collections" class="container mx-auto px-4 py-16">
-        <section class="container mx-auto px-4 py-16 text-center">
-            <h1 class="text-5xl md:text-7xl font-bold mb-6 bg-gradient-to-r from-blue-400 to-purple-600 bg-clip-text text-transparent">
-                Community Project
-            </h1>
-        </section>
+    <section id="collections" class="container mx-auto px-6 py-16">
+        <h1 class="text-5xl md:text-7xl font-bold text-center mb-16 bg-gradient-to-r from-blue-400 to-purple-600 bg-clip-text text-transparent">
+            Community Project
+        </h1>
         <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
-            <div class="clay-card p-6">
+            <div class="relative group clay-card p-6 overflow-hidden rounded-lg">
                 <div class="aspect-w-16 aspect-h-9 bg-gradient-to-r from-blue-500 to-purple-600 rounded-lg mb-4"></div>
                 <h3 class="text-xl font-bold mb-2">Upcoming Collections</h3>
                 <p class="text-gray-300">Stay tuned for our exclusive Projects/NFT Collections</p>
+
+                <!-- Hover effect -->
+                <div class="absolute inset-0 bg-gradient-to-b from-pink-600/100 to-purple-600/90 flex items-center justify-center p-6 opacity-0 group-hover:opacity-100 transition-opacity duration-300 text-white">
+                    <p>Pending...</p>
+                </div>
             </div>
-            <div class="clay-card p-6">
+            <div class="relative group clay-card p-6 overflow-hidden rounded-lg">
                 <div class="aspect-w-16 aspect-h-9 bg-gradient-to-r from-purple-500 to-blue-600 rounded-lg mb-4"></div>
                 <h3 class="text-xl font-bold mb-2">Community Collections</h3>
                 <p class="text-gray-300">Community driven blockchain initiatives</p>
+
+                <!-- Hover effect -->
+                <div class="absolute inset-0 bg-gradient-to-b from-pink-600/100 to-purple-600/90 flex items-center justify-center p-6 opacity-0 group-hover:opacity-100 transition-opacity duration-300 text-white">
+                    <p>Search CelestialCommunity on Opensea</p>
+                </div>
             </div>
         </div>
     </section>
 
     <!-- Projects Section -->
-    <section id="projects" class="container mx-auto px-4">
-        <div class="container mx-auto px-4">
-            <section class="container mx-auto px-4 py-16 text-center">
-                <h1 class="text-5xl md:text-7xl font-bold mb-6 bg-gradient-to-r from-blue-400 to-purple-600 bg-clip-text text-transparent">
-                    Active Projects
-                </h1>
-            </section>
-        
-            <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
-                <div class="clay-card p-8 project-card relative group overflow-hidden rounded-lg transition-all duration-300 hover:shadow-xl">
-                    <div class="flex items-start">
-                        <div class="text-4xl text-pink-500 mr-4"><i class="bi bi-music-note-beamed"></i></div>
-                        <div>
-                            <h3 class="text-2xl font-bold mb-4">The 7th District</h3>
-                            <p class="text-xl font-bold mt-4 mb-2">Onboarding Belize onto the blockchain through music collaboration via Progress Cayo.</p>
-                            <ul class="space-y-2">
-                                <li class="flex items-center"><i class="bi bi-check2-circle text-green-500 mr-2"></i>Artists employment</li>
-                                <li class="flex items-center"><i class="bi bi-check2-circle text-green-500 mr-2"></i>Blockchain education</li>
-                                <li class="flex items-center"><i class="bi bi-check2-circle text-green-500 mr-2"></i>Community development</li>
-                            </ul>
-                        </div>
-                    </div>
-                    <!-- Hover content -->
-                    <div class="absolute inset-0 bg-gradient-to-b from-pink-600/100 to-purple-600/90 flex items-center justify-center p-6 opacity-0 group-hover:opacity-100 transition-opacity duration-300 text-white">
-                        <div>
-                            <p class="mb-4">The 7th District is more than just music—it's a movement that integrates blockchain, music, fashion, and tourism to create a sustainable and impactful ecosystem. While music remains our strongest asset and global connection, we are expanding into new industries to maximize the potential of blockchain technology.</p>
-                        </div>
+    <section id="projects" class="container mx-auto px-6 py-16">
+        <h1 class="text-5xl md:text-7xl font-bold text-center mb-16 bg-gradient-to-r from-blue-400 to-purple-600 bg-clip-text text-transparent">
+            Active Projects
+        </h1>
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+            <!-- Project Card -->
+            <div class="clay-card p-6 relative group overflow-hidden rounded-lg transition-all duration-300 hover:shadow-xl">
+                <div class="flex items-start">
+                    <div class="text-4xl text-pink-500 mr-4"><i class="bi bi-music-note-beamed"></i></div>
+                    <div>
+                        <h3 class="text-2xl font-bold mb-4">The 7th District</h3>
+                        <p class="text-xl font-bold mb-2">Onboarding Belize onto the blockchain through music collaboration via Progress Cayo.</p>
+                        <ul class="space-y-2">
+                            <li class="flex items-center"><i class="bi bi-check2-circle text-green-500 mr-2"></i>Artists employment</li>
+                            <li class="flex items-center"><i class="bi bi-check2-circle text-green-500 mr-2"></i>Blockchain education</li>
+                            <li class="flex items-center"><i class="bi bi-check2-circle text-green-500 mr-2"></i>Community development</li>
+                        </ul>
                     </div>
                 </div>
-            
-                <div class="clay-card p-8 project-card relative group overflow-hidden rounded-lg transition-all duration-300 hover:shadow-xl">
-                    <div class="flex items-start">
-                        <div class="text-4xl text-blue-500 mr-4"><i class="bi bi-bag-heart"></i></div>
-                        <div>
-                            <h3 class="text-2xl font-bold mb-4">Daisy-Fashion</h3>
-                            <p class="text-xl font-bold mt-4 mb-2">Fashion initiative making real-world community impact through sustainable employment.</p>
-                            <ul class="space-y-2">
-                                <li class="flex items-center"><i class="bi bi-check2-circle text-green-500 mr-2"></i>Multiple collections</li>
-                                <li class="flex items-center"><i class="bi bi-check2-circle text-green-500 mr-2"></i>Local employment</li>
-                                <li class="flex items-center"><i class="bi bi-check2-circle text-green-500 mr-2"></i>Business partnerships</li>
-                            </ul>
-                        </div>
-                    </div>
-                    <!-- Hover content -->
-                    <div class="absolute inset-0 bg-gradient-to-b from-blue-600/100 to-indigo-600/90 flex items-center justify-center p-6 opacity-0 group-hover:opacity-100 transition-opacity duration-300 text-white">
-                        <div>
-                            <p class="mb-4">The Daisy Collection Vol. 1 will be our first major step into the fashion industry, using blockchain to create unique, sustainable, and community-driven designs. We are exploring global connections that could impact the fashion market and potentially transform the industry as a whole.</p>
-                        </div>
+                <div class="absolute inset-0 bg-gradient-to-b from-purple-600/100 to-fuchsia-600/90 flex items-center justify-center p-6 opacity-0 group-hover:opacity-100 transition-opacity duration-300 text-white">
+                    <p>The 7th District is more than just music—it's a movement integrating blockchain, music, fashion, and tourism.</p>
+                </div>
+            </div>
+
+            <!-- Repeat similar block for the next 3 projects -->
+            <div class="clay-card p-6 relative group overflow-hidden rounded-lg transition-all duration-300 hover:shadow-xl">
+                <div class="flex items-start">
+                    <div class="text-4xl text-blue-500 mr-4"><i class="bi bi-bag-heart"></i></div>
+                    <div>
+                        <h3 class="text-2xl font-bold mb-4">Daisy-Fashion</h3>
+                        <p class="text-xl font-bold mb-2">Fashion initiative making real-world community impact through sustainable employment.</p>
+                        <ul class="space-y-2">
+                            <li class="flex items-center"><i class="bi bi-check2-circle text-green-500 mr-2"></i>Multiple collections</li>
+                            <li class="flex items-center"><i class="bi bi-check2-circle text-green-500 mr-2"></i>Local employment</li>
+                            <li class="flex items-center"><i class="bi bi-check2-circle text-green-500 mr-2"></i>Business partnerships</li>
+                        </ul>
                     </div>
                 </div>
-            
-                <div class="clay-card p-8 project-card relative group overflow-hidden rounded-lg transition-all duration-300 hover:shadow-xl">
-                    <div class="flex items-start">
-                        <div class="text-4xl text-green-500 mr-4"><i class="bi bi-currency-bitcoin"></i></div>
-                        <div>
-                            <h3 class="text-2xl font-bold mb-4">Quakey Nation</h3>
-                            <p class="text-xl font-bold mt-4 mb-2">Integration of Quakey.x and BlockQuake for global crypto impact.</p>
-                            <ul class="space-y-2">
-                                <li class="flex items-center"><i class="bi bi-check2-circle text-green-500 mr-2"></i>NYC exchange integration</li>
-                                <li class="flex items-center"><i class="bi bi-check2-circle text-green-500 mr-2"></i>$Quakey utility expansion</li>
-                                <li class="flex items-center"><i class="bi bi-check2-circle text-green-500 mr-2"></i>Global reach</li>
-                            </ul>
-                        </div>
-                    </div>
-                    <!-- Hover content -->
-                    <div class="absolute inset-0 bg-gradient-to-b from-green-600/100 to-teal-600/90 flex items-center justify-center p-6 opacity-0 group-hover:opacity-100 transition-opacity duration-300 text-white">
-                        <div>
-                            <p class="mb-4">Strategic partnership with BlockQuake exchange in New York City to expand $Quakey token utility and accessibility.</p>
-                        </div>
+                <div class="absolute inset-0 bg-gradient-to-b from-purple-600/100 to-fuchsia-600/90 flex items-center justify-center p-6 opacity-0 group-hover:opacity-100 transition-opacity duration-300 text-white">
+                    <p>The Daisy Collection uses blockchain for unique, sustainable, and community-driven designs.</p>
+                </div>
+            </div>
+
+            <div class="clay-card p-6 relative group overflow-hidden rounded-lg transition-all duration-300 hover:shadow-xl">
+                <div class="flex items-start">
+                    <div class="text-4xl text-green-500 mr-4"><i class="bi bi-currency-bitcoin"></i></div>
+                    <div>
+                        <h3 class="text-2xl font-bold mb-4">Quakey Nation</h3>
+                        <p class="text-xl font-bold mb-2">Integration of Quakey.x and BlockQuake for global crypto impact.</p>
+                        <ul class="space-y-2">
+                            <li class="flex items-center"><i class="bi bi-check2-circle text-green-500 mr-2"></i>NYC exchange integration</li>
+                            <li class="flex items-center"><i class="bi bi-check2-circle text-green-500 mr-2"></i>$Quakey utility expansion</li>
+                            <li class="flex items-center"><i class="bi bi-check2-circle text-green-500 mr-2"></i>Global reach</li>
+                        </ul>
                     </div>
                 </div>
-            
-                <div class="clay-card p-8 project-card relative group overflow-hidden rounded-lg transition-all duration-300 hover:shadow-xl">
-                    <div class="flex items-start">
-                        <div class="text-4xl text-purple-500 mr-4"><i class="bi bi-graph-up"></i></div>
-                        <div>
-                            <h3 class="text-2xl font-bold mb-4">Finance</h3>
-                            <p class="text-xl font-bold mt-4 mb-2">Comprehensive financial management within the ecosystem.</p>
-                            <ul class="space-y-2">
-                                <li class="flex items-center"><i class="bi bi-check2-circle text-green-500 mr-2"></i>Project management</li>
-                                <li class="flex items-center"><i class="bi bi-check2-circle text-green-500 mr-2"></i>Financial operations</li>
-                            </ul>
-                        </div>
+                <div class="absolute inset-0 bg-gradient-to-b from-purple-600/100 to-fuchsia-600/90 flex items-center justify-center p-6 opacity-0 group-hover:opacity-100 transition-opacity duration-300 text-white">
+                    <p>Strategic partnership with BlockQuake exchange in NYC to expand $Quakey token utility and accessibility.</p>
+                </div>
+            </div>
+
+            <div class="clay-card p-6 relative group overflow-hidden rounded-lg transition-all duration-300 hover:shadow-xl">
+                <div class="flex items-start">
+                    <div class="text-4xl text-purple-500 mr-4"><i class="bi bi-graph-up"></i></div>
+                    <div>
+                        <h3 class="text-2xl font-bold mb-4">Finance</h3>
+                        <p class="text-xl font-bold mb-2">Comprehensive financial management within the ecosystem.</p>
+                        <ul class="space-y-2">
+                            <li class="flex items-center"><i class="bi bi-check2-circle text-green-500 mr-2"></i>Project management</li>
+                            <li class="flex items-center"><i class="bi bi-check2-circle text-green-500 mr-2"></i>Financial operations</li>
+                        </ul>
                     </div>
-                    <!-- Hover content -->
-                    <div class="absolute inset-0 bg-gradient-to-b from-purple-600/100 to-fuchsia-600/90 flex items-center justify-center p-6 opacity-0 group-hover:opacity-100 transition-opacity duration-300 text-white">
-                        <div>
-                            <p class="mb-4">Finance is essential for growth, and we are strategically aligning with key investors and whales to strengthen our ecosystem. Despite financial growth, we remain committed to our core mission, ensuring that money does not overshadow our objectives.</p>
-                        </div>
-                    </div>
+                </div>
+                <div class="absolute inset-0 bg-gradient-to-b from-purple-600/100 to-fuchsia-600/90 flex items-center justify-center p-6 opacity-0 group-hover:opacity-100 transition-opacity duration-300 text-white">
+                    <p>Finance is essential for growth, and we are aligning with key investors while staying mission-focused.</p>
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- About Us Section -->
-    <section class="container mx-auto px-4 py-16 text-center">
-        <h1 class="text-5xl md:text-7xl font-bold mb-6 bg-gradient-to-r from-blue-400 to-purple-600 bg-clip-text text-transparent">
-            About Founder
-        </h1>
-        <p>
-            <div class="container mx-auto px-4 py-16 text-center">
-                <div class="clay-card p-4">
-                    <div class="aspect-w-16 aspect-h-5 bg-gradient-to-r from-blue-500 to-purple-600 rounded-lg mb-4"></div>
-                    <p class="text-gray-300">Born in Brooklyn and raised in the country of Belize, I now reside in New York, where I strive to make a positive, global impact on this little blue dot within the vastness of space and time. As a Millennial raised by my grandparents in a third-world country — a once British colony — I consider myself fortunate to have been shaped by wisdom, diversity, and life’s unpredictable journey. Born in the late ‘80s, my upbringing felt more aligned with a generation before my time, while friends and family experienced life through a different lens. In the final month of my 18th year, I moved to the United States permanently, determined to finish my chemistry degree and build a new life from the one I once knew. Though not a stranger to America, I embarked on a career in food science, quality, and compliance, while also serving 10 years as an Army Reservist. If life has taught me one valuable lesson, it’s this: true success isn’t about riches, fame, or winning the rat race. It’s about finding meaning — even in the hardest moments — and turning obstacles into opportunities. This belief laid the foundation for BlueChipz.X. When the world spiraled into uncertainty in 2020, I chose to take control of my circumstances, leaning on my skills, resources, and determination. At the time, it felt selfish to think of capitalizing on such global turmoil, but looking back, it was simply survival — the fight-or-flight instinct kicking in as I prepared to build a future for my own family. The world hit pause; I stopped working for a month and soon returned to the relentless hustle of NYC life. With Facebook as my only social media outlet, I used it as a source for news and education on topics I cared about. Fueled by a desire to give back, I discovered a non-profit organization dedicated to helping others — not just any organization, but one based in my hometown on the west side of Belize, in the country’s largest district. I later became co-founder of that organization: Progress Cayo, the 7th District. During this time, I also immersed myself in stocks, crypto, and the fundamentals of reading candlestick charts. When an app I was using was disabled, I turned to YouTube for learning. While exploring cryptocurrency content, I stumbled across a video about NFTs. It featured Gary Vee, passionately explaining NFTs and their future impact — from token-gated access to events like baseball games to how blockchain would inevitably integrate into our daily lives. His words struck a deep chord with me. He said he wasn’t trying to convince the world that NFTs and blockchain were the future — he just hoped his words would inspire some random kid from Brooklyn or Queens who might one day change the world. Although I wasn’t a kid from Brooklyn anymore, I was born there. Why not me? His message wasn’t literal; it was universal. And it gave me the clarity to see this as more than an opportunity for personal gain — but as a way to make a meaningful impact for others, too. That moment sparked a thought: If blockchain can offer such power and opportunity, why not use it for good? But from what, and how, when human nature often leans toward manipulation and greed? Is it possible to harness such innovation for positive change without falling into the same traps of power and corruption? I realized I wasn’t alone. As the world reset, people sought fresh starts — but naturally, most looked out for themselves. It’s human nature. This truth was both a risk and an advantage for someone like me. The phrase “pros and cons” echoed in my mind as I reflected on the path ahead. BlueChipz.X was born from this journey — from reflection, resilience, and the belief that even in uncertainty, we can create something that lifts not just ourselves but others along the way.</p>
-                </div>
-            </div>
-        </p>
-    </section>
+    <!-- Centered Image -->
+    <div class="flex justify-center items-center py-16">
+        <div class="w-60">
+            <a href="about.html">
+            <img src="./components/move.png" alt="BlueChipz.x" class="w-full p-6 transition transform hover:scale-105 hover:opacity-80">
+            </a>
+        </div>
+    </div>
 
     <!-- Contact Section -->
-    <section id="contact" class="container mx-auto px-4 py-16 text-center">
-        <section class="container mx-auto px-4 py-16 text-center">
-                <h1 class="text-5xl md:text-7xl font-bold mb-6 bg-gradient-to-r from-blue-400 to-purple-600 bg-clip-text text-transparent">
-                    Contact Us
-                </h1>
-        </section>
-        <div class="clay-card max-w-2xl mx-auto p-8">
-            <h2 class="text-3xl font-bold mb-8 text-center">Join the Revolution</h2>
+    <section id="contact" class="container mx-auto px-6 py-16 text-center">
+        <h1 class="text-5xl md:text-7xl font-bold mb-6 bg-gradient-to-r from-blue-400 to-purple-600 bg-clip-text text-transparent">
+            Contact Us
+        </h1>
+        <div class="clay-card max-w-2xl mx-auto p-6">
+            <h2 class="text-3xl font-bold mb-8">Join the Revolution</h2>
             <form class="space-y-6" action="https://formspree.io/f/myzenqap" method="POST" id="contact-form">
                 <div>
                     <input type="email" name="email" placeholder="Enter your email" class="w-full p-3 rounded-lg bg-transparent border border-blue-400 focus:outline-none focus:ring-2 focus:ring-blue-400" required>
@@ -212,7 +189,6 @@
                     Thank you for subscribing! We'll keep you updated.
                 </div>
             </form>
-            
         </div>
     </section>
 
