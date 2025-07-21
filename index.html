@@ -12,11 +12,11 @@
     <script src="https://code.iconify.design/iconify-icon/1.0.7/iconify-icon.min.js"></script>
 </head>
 
-<body class="min-h-screen text-white">
-    <header>
-        <div id="navbar"></div>
-    </header>
+<body class="min-h-screen text-white flex flex-col">
 
+    <div id="navbar"></div>
+
+    <main class="flex-grow">
     <!-- Hero Section -->
     <section class="container mx-auto px-6 py-16 text-center">
         <h1 class="text-5xl md:text-7xl font-bold mb-6 bg-gradient-to-r from-blue-400 to-purple-600 bg-clip-text text-transparent">
@@ -88,6 +88,8 @@
         </h1>
         <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
             <!-- Project Card -->
+
+            <!-- The 7th District -->
             <div class="clay-card p-6 relative group overflow-hidden rounded-lg transition-all duration-300 hover:shadow-xl">
                 <div class="flex items-start">
                     <div class="text-4xl text-pink-500 mr-4"><i class="bi bi-music-note-beamed"></i></div>
@@ -106,7 +108,7 @@
                 </div>
             </div>
 
-            <!-- Repeat similar block for the next 3 projects -->
+            <!-- Daisy-Fashion -->
             <div class="clay-card p-6 relative group overflow-hidden rounded-lg transition-all duration-300 hover:shadow-xl">
                 <div class="flex items-start">
                     <div class="text-4xl text-blue-500 mr-4"><i class="bi bi-bag-heart"></i></div>
@@ -125,6 +127,7 @@
                 </div>
             </div>
 
+            <!-- Quakey Nation -->
             <div class="clay-card p-6 relative group overflow-hidden rounded-lg transition-all duration-300 hover:shadow-xl">
                 <div class="flex items-start">
                     <div class="text-4xl text-green-500 mr-4"><i class="bi bi-currency-bitcoin"></i></div>
@@ -143,6 +146,7 @@
                 </div>
             </div>
 
+            <!-- Finance -->
             <div class="clay-card p-6 relative group overflow-hidden rounded-lg transition-all duration-300 hover:shadow-xl">
                 <div class="flex items-start">
                     <div class="text-4xl text-purple-500 mr-4"><i class="bi bi-graph-up"></i></div>
@@ -159,13 +163,32 @@
                     <p>Finance is essential for growth, and we are aligning with key investors while staying mission-focused.</p>
                 </div>
             </div>
+
+            <!-- Celestial Sounds -->
+            <div class="clay-card p-6 relative group overflow-hidden rounded-lg transition-all duration-300 hover:shadow-xl">
+                <div class="flex items-start">
+                    <div class="text-4xl text-purple-500 mr-4"><i class="bi bi-headphones"></i></div>
+                    <div>
+                        <h3 class="text-2xl font-bold mb-4">Celestial Sounds</h3>
+                        <p class="text-xl font-bold mb-2">Connecting the planet via music/sounds and giving back to RW communities.</p>
+                        <ul class="space-y-2">
+                            <li class="flex items-center"><i class="bi bi-check2-circle text-green-500 mr-2"></i>Provide resources and work for artists to flourish collectively via collaboration on a global outreach</li>
+                            <li class="flex items-center"><i class="bi bi-check2-circle text-green-500 mr-2"></i>To house a library of generes/culture and challenge artists current RW streaming proffit margins.</li>
+                            <li class="flex items-center"><i class="bi bi-check2-circle text-green-500 mr-2"></i>Be the power cell to providing/selecting sounds used throughout the BlueChipz.X ecosystem</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="absolute inset-0 bg-gradient-to-b from-purple-600/100 to-fuchsia-600/90 flex items-center justify-center p-6 opacity-0 group-hover:opacity-100 transition-opacity duration-300 text-white">
+                    <p>Celestial Sounds aims to make a global impact on the world through music and tap into sounds responsible for healing, meditation and a healthy state of mind. We intend to provide reputable services for/from artists working as collab/with/within the ecosystem.</p>
+                </div>
+            </div>
         </div>
     </section>
 
     <!-- Centered Image -->
     <div class="flex justify-center items-center py-16">
-        <div class="w-60">
-            <a href="about.html">
+        <div class="w-1/3">
+            <a href="platform.html">
             <img src="./components/move.png" alt="BlueChipz.x" class="w-full p-6 transition transform hover:scale-105 hover:opacity-80">
             </a>
         </div>
@@ -191,6 +214,7 @@
             </form>
         </div>
     </section>
+    </main>
 
     <div id="footer"></div>
 

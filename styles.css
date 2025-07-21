@@ -24,6 +24,10 @@ body {
     flex-direction: column;
     height: 100%;
     margin: 0;
+    overscroll-behavior: none;
+    overflow-x: hidden;
+    min-height: 100%;
+    background-attachment: fixed;
 }
 .gradient-text {
     background: linear-gradient(90deg, #9f4fe0, #ab64d4);
@@ -53,6 +57,10 @@ html{
     margin: 0;
     display: flex;
     flex-direction: column;
+    overscroll-behavior: none;
+    overflow-x: hidden;
+    min-height: 100%;
+    background-attachment: fixed;
 }
 
 footer {
