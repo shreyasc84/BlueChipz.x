@@ -20,14 +20,13 @@ body {
     color: white;
     font-family: 'Space Grotesk', sans-serif;
     scroll-behavior: smooth; /* Smooth scrolling */
-    display: flex;
-    flex-direction: column;
     height: 100%;
     margin: 0;
     overscroll-behavior: none;
     overflow-x: hidden;
     min-height: 100%;
-    background-attachment: fixed;
+    background-attachment: scroll;
+
 }
 .gradient-text {
     background: linear-gradient(90deg, #9f4fe0, #ab64d4);
@@ -55,12 +54,11 @@ body::-webkit-scrollbar {
 html{
     height: 100%;
     margin: 0;
-    display: flex;
-    flex-direction: column;
     overscroll-behavior: none;
     overflow-x: hidden;
     min-height: 100%;
-    background-attachment: fixed;
+    background-attachment: scroll;
+
 }
 
 footer {
